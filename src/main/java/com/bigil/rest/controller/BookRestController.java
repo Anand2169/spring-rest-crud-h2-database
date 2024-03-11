@@ -16,6 +16,7 @@ import com.bigil.entity.Book;
 import com.bigil.service.BookServiceRepository;
 
 @RestController
+@CrossOrigin
 public class BookRestController {
 
 	BookServiceRepository bookServiceRepository;
